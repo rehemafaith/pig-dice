@@ -1,7 +1,7 @@
-.hero-image{
+.jumbotron{
 
   linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
-    background-image:url('diceimage.jpg');
+    background-color:pink;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,7 +47,7 @@ img{
   and (min-width: 1200px)
   and (max-width: 1600px)
   and (-webkit-min-device-pixel-ratio: 1) {
-    
+
 }
 @media screen
   and (min-width: 360px)
@@ -61,4 +61,14 @@ img{
   and (max-width: 1280px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
+}
+p{
+
+  font-family: 'Domine', serif;
+}
+.pig{
+  font-family: 'Press Start 2P', cursive;
+}
+.game{
+  font-family: 'Amaranth', sans-serif;
 }
