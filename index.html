@@ -1,64 +1,78 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>login</title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-  </head>
-  <body class="index">
-
-    <div class="container">
-      <div class="jumbotron">
-        <h1>PIG DICE</h1>
-      </div>
-        <div class="card-group">
-          <div class="col-md-6">
-            <div class="card" id="first">
-              <h2>player1</h2>
-              <div class="card-image">
-                <img src="css/pig2.jpeg" alt="my pig">
-              </div>
-              <div class="card-body">
-                <form class="name1">
-                  <label>
-                    Enter Name
-                    <input type="text" name="plyr1">
-                  </label>
-
-                </form>
-              </div>
-
+<head>
+  <title>login</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body class="index">
+  <div class="container">
+    <div class="jumbotron">
+      <h1>PIG DICE</h1>
+    </div>
+    <div class="intro">
+      <div class="card-group">
+        <div class="col-md-6">
+          <div class="card" id="first">
+            <h2>player1</h2>
+            <div class="card-image"><img alt="my pig" src="css/pig2.jpeg"></div>
+            <div class="card-body">
+              <form class="name1">
+                <label>Enter Name <input id="plyr1" type="text"></label>
+              </form>
             </div>
+          </div>
         </div>
         <div class="col-md-6">
           <div class="card">
             <h2>Player 2</h2>
-            <div class="card-image">
-              <img src="css/pig3.jpg" alt="my pig">
-            </div>
+            <div class="card-image"><img alt="my pig" src="css/pig3.jpg"></div>
             <div class="card-body">
               <form class="name2">
-                <label>
-                  Enter Name
-                  <input type="text" name="plyr2">
-
-                </label>
-
+                <label>Enter Name <input id="plyr2" type="text"></label>
               </form>
             </div>
-
           </div>
         </div>
-        </div>
-        <div class="card-body">
-        <a href="page1.html" button type="submit" class="btn">Start Game</button></a>
-
-
-        </div>
+      </div>
+      <div class="card-body">
+        <button class="btn" type="submit">Start Game</button>
+      </div>
     </div>
-
-
-  <script   src="https://code.jquery.com/jquery-3.3.1.min.js"  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="js/scripts.js"></script>
-  </body>
+    <div class="game">
+      <h1>Hello!I hope you are ready to play</h1>
+      <p>Let us start with a few intructions.</p>
+      <h3>Instructions</h3>
+      <ul>
+        <li>Each player has their own turn and one cannot play if the other player is playing</li>
+        <li>You can either choose to roll the dice or hold. If you roll the dice and you land on 1 your score is zero</li>
+        <li>You can keep rolling the dice as long as you have not landed on 1</li>
+      </ul>
+      <h3>The winner is the first person to get to 100 points</h3>
+      <h1>LET THE GAME BEGIN!!</h1>
+      <div class="card-group">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-image">
+            <h1>Player 1:</h1>
+            <p id="namep1"></p><img alt="my pig" id="img" src="css/pig2.jpeg"></div>
+            <p id="return1"></p><button id="btn1" name="button" type="button">Roll Dice</button> <button id="btn2" name="button" type="button">Hold</button>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-image">
+            <h1>player 2:</h1>
+            <p id="namep2"></p><img alt="my pig" id="img" src="css/pig3.jpg"></div>
+            <p id="return2"></p><button id="btn3" name="button" type="button">Roll Dice</button> <button id="btn4" name="button" type="button">Hold</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js">
+  </script>
+  <script src="js/scripts.js">
+  </script>
+</body>
 </html>
