@@ -26,3 +26,5 @@
 ### email : rehemafaith01@gmail.com
 
 ## LICENSE 
+
+* [MIT LICENSE](LISENCE)
