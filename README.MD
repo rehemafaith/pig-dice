@@ -13,3 +13,16 @@
 * HTML
 * CSS
 * JavaScript  
+
+## BDD 
+ 
+| Behaviour                | Input                           | Output                      |
+| :---------------------:  | :-------------------------:     | :------------------------:  |
+| press roll dice button   | Get a random number             | Get the score               |
+| press hold button        | disable the roll dice button    | enable the other player's button |
+
+## contact information
+
+### email : rehemafaith01@gmail.com
+
+## LICENSE 
