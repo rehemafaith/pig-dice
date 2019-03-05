@@ -23,7 +23,7 @@ $(document).ready(function(event){
     $(".game").show();
     $(".intro").hide();
     var player1=new Name(this.name=$("input#plyr1").val(),this.names=$("input#plyr2").val());
-    var player2=new Name(this.name=$("input#plyr1").val(),this.names=$("input#plyr2").val());
+    var player2=new Name(this.name=$("input#plyr2").val(),this.names=$("input#plyr1").val());
 
     document.getElementById('namep1').innerHTML = player1.name
 
